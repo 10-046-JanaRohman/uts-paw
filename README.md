@@ -2,7 +2,7 @@
 
 **Nama:** Jana Rohman Wasiso  
 **NIM:** 123140046  
-**Kelas:** RB *(periksa lagi dengan kelas di SIAKAD)*  
+**Kelas:** RB  
 **Tema:** Jurnal Latihan Olahraga  
 **Mata kuliah:** IF25-22014 Pengembangan Aplikasi Web  
 **Deployment:** https://10-046-JanaRohman.github.io/uts-paw/  
