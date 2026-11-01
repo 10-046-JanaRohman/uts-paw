@@ -40,19 +40,6 @@ npm run test
 npm run cek
 ```
 
-## Deploy GitHub Pages
-
-1. Fork `https://github.com/mh4Scripts/uts-paw` ke akun GitHub sendiri.
-2. Masukkan file paket ke dalam fork, dengan posisi folder yang sama. **Jangan menghapus `package-lock.json` dari repo induk.**
-3. Ganti `GANTI_USERNAME_GITHUB` di `app/src/config.js` dan URL repo/deployment pada README ini dengan username GitHub yang benar.
-4. Pastikan `kelas` di `app/mahasiswa.json` sama dengan data SIAKAD; jangan hanya mengikuti contoh RB.
-5. Aktifkan Actions dan ubah Settings → Pages → Build and deployment → Source menjadi **GitHub Actions**.
-6. Jalankan `npm ci`, `npm run build`, `npm run lint`, `npm run test`, `npm run cek` dari folder `app/`.
-7. Jalankan `git add .`, `git commit -m "Selesaikan jurnal latihan olahraga"`, lalu `git push origin main` sebelum tenggat kelas.
-8. Periksa workflow Actions, situs GitHub Pages, serta refresh langsung pada URL `/uts-paw/koleksi`.
-
-Script build membuat `dist/404.html` sebagai salinan `dist/index.html` untuk fallback React Router di GitHub Pages.
-
 ## Konsep React yang dipakai
 
 - Komponen fungsional, props, dan pemetaan daftar dengan `map` beserta `key`.
